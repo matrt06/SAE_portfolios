@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h1 {
+    color: #333;
+}
+
+section {
+    margin-bottom: 40px;
+    text-align: center;
+    border: 2px solid #0066cc; /* Ajout de la bordure bleue */
+    padding: 20px; /* Ajout de la marge intérieure pour l'espace entre le texte et la bordure */
+    border-radius: 10px; /* Ajout de coins arrondis */
+    background-color: #f0f8ff; /* Ajout d'une couleur de fond */
+    overflow: hidden;
+}
+
+
+h2 {
+    color: #0066cc;
+}
+
+p {
+    line-height: 1.6;
+}
+
+
+img {
+    max-width: 50%;
+    height: auto;
+    float: left; /* Ajout pour aligner l'image à gauche */
+    margin-right: 20px; /* Ajout de la marge à droite de l'image */
+}
+
+
+
+
+.projet-sam{
+    margin-bottom: 40px;
+    text-align: center;
+    border: 2px solid #0066cc;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f0f8ff;
+    overflow: hidden;
+}
+
+.projet-imsam {
+    max-width: 75%; /* Ajustez selon vos besoins */
+    height: auto;
+    float: right;
+    margin-left: 20px; /* Marge à gauche pour l'image */
+}
+
+.projet-imsol,
+.projet-imsam {
+    max-width: 70%; /* Ajustez selon vos besoins */
+    height: auto;
+    float: left; /* Ajustement pour afficher les deux images côte à côte */
+    margin-right: 5px; /* Marge à droite pour séparer les images */
+}
+
+img {
+    max-width: 100%; /* Ajustement pour agrandir l'image à 100% de la largeur */
+    height: auto;
+    display: block; /* Pour centrer l'image horizontalement */
+    margin: 0 auto; /* Pour centrer l'image horizontalement */
+}
+
+/* Ajout de styles pour le contenu de la description du projet */
+.description-content {
+    text-align: left; /* Aligner le texte à gauche dans la description */
+}
+
+.description-content li {
+    list-style-type: square;
+    margin-left: 20px;
+}
+
+.projet-thales {
+    margin-bottom: 40px;
+    text-align: center;
+    border: 2px solid #0066cc;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f0f8ff;
+    overflow: hidden;
+}
