@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    list-style: none;
+    font-family: "Poppins";
+}
+body{
+    background-color: #ebecf0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.skill{
+    display: flex;
+    border: 2px solid #9da2ad;
+    padding: 4em;
+    border-radius: 30px;
+    position: relative;
+}
+
+.skill::before{
+    content: "Mes Compétences";
+    position: absolute;
+    top: -18px;
+    left: 40px;
+    background-color: #ebecf0;
+    font-weight: 500;
+    padding: 5px 10px ;
+    color:#6d7587;
+}
+.skill .name{
+    display: flex;
+    flex-direction: column;
+    color: #6d7587;
+    font-size: 2em;
+    font-weight: 500;
+    margin-right: 40px ;
+}
+
+.skill .name span{
+    margin: 15px 0;
+    box-shadow: 9.91px 9.91px 15px #d9dade,-9.91px -9.91px 15 px #fff;
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 50px;
+    border: 5px solid #ebecf0;
+    transition: 0.2s ;
+    cursor: pointer;
+}
+
+.skill .name span:hover{
+    color:#1a60f2 ;
+    box-shadow: 9.91px 9.91px 15px #d9dade,-9.91px -9.91px 15 px #fff,
+    inset 9.91px 9.91px 15px #d9dade, inset -9.91px -9.91px 15 px #fff;
+
+}
+.bar-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+
+.bar{
+    width: 400px;
+    height: 30px;
+    background-color: red;
+    border-radius: 20px;
+    box-shadow:inset 6px 6px 6px #d9dade,inset 6px 6px 6px #fff;
+
+}
+.bar .progress{
+    height: 100%;
+    width: 50%;
+    background: linear-gradient(to right,#0e3fea, #1d69f5);
+    border-radius:20px ;
+}
+
+.bar:nth-child(1) .progress{
+    width: 80%;
+}
+.bar:nth-child(2) .progress{
+    width: 60%;
+}
+.bar:nth-child(3) .progress{
+    width: 20%;
+}

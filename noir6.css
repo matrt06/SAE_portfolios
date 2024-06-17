@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+section {
+    margin: 20px;
+    border: 2px solid #3498db;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center; /* Ajout pour centrer le texte */
+}
+
+h2 {
+    color: #3498db;
+}
+
+p {
+    line-height: 1.6;
+}
+
+img {
+    width: 300px; /* Ajustez la taille des images selon vos préférences */
+    margin: 50px; /* Ajout de marge pour l'espacement entre les images */
+}

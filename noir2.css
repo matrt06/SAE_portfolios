@@ -1,0 +1,75 @@
+/* Réinitialisation et styles de base */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 20px;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.center-section {
+    text-align: center;
+}
+
+/* Styles généraux pour les sections */
+section {
+    margin-bottom: 20px;
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+/* Styles pour les boîtes avec transition */
+div {
+    border: 2px solid #3498db; /* Bordure initiale bleue */
+    padding: 10px;
+    margin-bottom: 10px;
+    display: inline-block;
+    transition: border-color 0.3s ease; /* Ajout de la transition */
+}
+
+div:hover {
+    border-color: #fff; /* Nouvelle couleur de la bordure au survol */
+}
+
+p {
+    margin: 0;
+}
+
+
+
+
+/* Styles pour les compétences avec transition */
+.competence-container,
+.competence-container2,
+.competence-container3,
+.competence-container4 {
+    padding: 10px;
+    margin-bottom: 10px;
+    display: inline-block;
+    box-shadow: 0 0 0 2px transparent; /* Boîte à ombre avec couleur de fond transparente */
+    transition: background-color 0.3s ease; /* Ajout de la transition */
+}
+
+.competence-container:hover,
+.competence-container2:hover,
+.competence-container3:hover,
+.competence-container4:hover {
+    box-shadow: 0 0 0 2px #3498db; /* Boîte à ombre avec la nouvelle couleur au survol */
+    background-color: rgba(52, 152, 219, 0.1); /* Nouvelle couleur de fond avec alpha pour la transition */
+}
+
+/* Styles pour l'alignement à gauche */
+.left-align {
+    text-align: left; /* Ajout de la propriété pour aligner le texte à gauche */
+    margin-left: 100px; /* Ajout d'une marge à droite pour séparer les sections si nécessaire */
+}
+
+.left-align section {
+    text-align: left; /* Ajout de la propriété pour aligner la section à gauche */
+    margin-left: 100px; /* Ajout d'une marge à droite pour séparer les sections si nécessaire */
+}

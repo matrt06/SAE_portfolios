@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Tw Cen Mt';
+    background: url('noir.webp') top left no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    z-index: 1000;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav.logo {
+    width: 120px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+    transition: color .3s;
+    border-bottom: none;
+}
+
+nav ul li a:hover {
+    color: #2eb0f0;
+}
+
+.main-content {
+    margin-top: 80px;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: left;
+    color: #fff;
+}
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.background {
+    background: url('noir.webp') top left no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+/* Reste de votre CSS existant */
